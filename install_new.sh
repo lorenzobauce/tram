@@ -1,7 +1,7 @@
 # Step 1 - Always start with a fresh environment
-conda remove -n tram --all -y
-conda create -n tram python=3.8 -y
-conda activate tram
+# conda remove -n tram --all -y
+# conda create -n tram python=3.8 -y
+# conda activate tram
 
 # Step 2 - Install CUDA Toolkit (CUDA 11.8)
 conda install -c "nvidia/label/cuda-11.8.0" cuda-toolkit
